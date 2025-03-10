@@ -1,0 +1,14 @@
+#ACT 5
+
+def age():
+    age = int(input("ENTER YA AGE:"))
+    if age <=12:
+        print("YOU ARE A CHILD.")
+    elif age <=19:
+        print("YOU ARE A TEEN.")
+    elif age <=64:
+        print("YOU ARE AN ADULT.")
+    elif age >=65:
+        print("YOU ARE A SENIOR.")
+
+age()
